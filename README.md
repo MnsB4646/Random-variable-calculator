@@ -26,7 +26,10 @@ This calculator supports two distinct execution paths: an **Analytical Mode** th
 
 ## Usage
 
-You can control the execution method in `main.py` using the `USE_MONTE_CARLO` boolean toggle.
+Configure your variables and operations directly inside the `main()` function in `main.py`. You can select the computation method using the `USE_MONTE_CARLO` boolean toggle:
+
+* Set `USE_MONTE_CARLO = False` to compute exact analytical curves.
+* Set `USE_MONTE_CARLO = True` to run sample-based simulations.
 
 ### 1. Exact Analytical Mode
 
